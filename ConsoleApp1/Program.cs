@@ -35,9 +35,8 @@ namespace ConsoleApp1
             
         }
             
-        static void JelszoEllenorzes()
+        static void JelszoEllenorzes(string jelszo)
         {
-            string jelszo = Console.ReadLine();
             int pontszam = 0;
 
             if (jelszo == "") {
@@ -62,6 +61,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             string nev = "";
+            var jelszo = "";
             while (true) {
 
                 //Menu
@@ -78,7 +78,6 @@ namespace ConsoleApp1
                 Console.WriteLine("3. Kilépés");
 
                 var program = 0;
-
                 switch (Convert.ToInt32(Console.ReadLine())){
                     case 1: program = 1; break;
                     case 2: program = 2; break;
@@ -88,15 +87,16 @@ namespace ConsoleApp1
 
                 //Ellenőrzés
                 while (program == 1) {
-                    Console.WriteLine("Jelszó ellenőrzése ciklus jön ide. Kérjük írd be a jelszavad:");
-                    JelszoEllenorzes();
+                    Console.WriteLine("Jelszó ellenőrzése ciklus:");
+                    JelszoEllenorzes(jelszo);
                     program = 0;
                 }
 
                 //Generálás
                 while (program == 2) {
                     Console.WriteLine("Jelszó generálás ciklus jön ide. Kérjük írd be a hosszt:");
-                    Console.WriteLine(JelszoGenerator(Convert.ToInt32(Console.ReadLine())));
+                    jelszo = JelszoGenerator(Convert.ToInt32(Console.ReadLine()));
+                    Console.WriteLine(jelszo);
                     program = 0;
                 }
             }
