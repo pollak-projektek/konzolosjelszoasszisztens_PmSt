@@ -19,8 +19,8 @@ namespace ConsoleApp1
                     stringChar[i] = chars[random.Next(chars.Length)];
                 }
                 var checkString = new String(stringChar);
-                Console.WriteLine("Trying...");
-                Console.WriteLine(checkString);
+                //Console.WriteLine("Trying...");
+                //Console.WriteLine(checkString);
                 Regex regex1 = new Regex("[\\[!\\.,-_<>;#&@{}đĐ\\]\\$ß÷×¨˝\\(\\)=%\\+\\*]+");
                 Regex regex2 = new Regex("[0-9]+");
                 if (regex1.IsMatch(checkString) && regex2.IsMatch(checkString))
@@ -34,9 +34,6 @@ namespace ConsoleApp1
             return "";
             
         }
-
-
-
             
         static void JelszoEllenorzes()
         {
@@ -98,8 +95,9 @@ namespace ConsoleApp1
 
                 //Generálás
                 while (program == 2) {
-                    Console.WriteLine("Jelszó generálás ciklus jön ide. Kilépéshez nyomj entert.");
-                    if (Console.ReadLine() == "") { program = 0; break; }
+                    Console.WriteLine("Jelszó generálás ciklus jön ide. Kérjük írd be a hosszt:");
+                    Console.WriteLine(JelszoGenerator(Convert.ToInt32(Console.ReadLine())));
+                    program = 0;
                 }
             }
         }
