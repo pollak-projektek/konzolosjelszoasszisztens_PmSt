@@ -1,3 +1,3 @@
 # To do
 
-[ ] Test repo
+[*] Set up the whole Git thing
