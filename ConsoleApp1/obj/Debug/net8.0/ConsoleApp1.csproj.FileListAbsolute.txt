@@ -1,0 +1,15 @@
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.AssemblyInfo.cs
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.sourcelink.json
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.exe
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.deps.json
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.runtimeconfig.json
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.dll
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\bin\Debug\net8.0\ConsoleApp1.pdb
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.dll
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\obj\Debug\net8.0\refint\ConsoleApp1.dll
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.pdb
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\obj\Debug\net8.0\ConsoleApp1.genruntimeconfig.cache
+D:\PM\konzolasszisztens2\konzolosjelszoasszisztens_PmSt\ConsoleApp1\obj\Debug\net8.0\ref\ConsoleApp1.dll
